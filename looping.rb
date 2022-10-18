@@ -38,9 +38,11 @@ def fizzbuzz_printer
 end
 
 def reverse_string(str)
-  # your code here
+  #your code here
   split_string = str.split("")
   reversed = []
   str.size.times { reversed << split_string.pop }
   reversed.join
 end
+
+puts reverse_string("hello")
